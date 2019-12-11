@@ -12,4 +12,14 @@ public class User {
         this.sex = sex;
         this.age = age;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                ", id=" + id +
+                ", sex='" + sex + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
